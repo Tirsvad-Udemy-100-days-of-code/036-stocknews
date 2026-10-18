@@ -1,0 +1,20 @@
+# Doxygen configuration for stocknews. Run: doxygen Doxyfile
+PROJECT_NAME           = "stocknews"
+PROJECT_BRIEF          = "Alert with the latest news when a stock moves by 5 percent"
+PROJECT_NUMBER         = 0.1.0
+OUTPUT_DIRECTORY       = docs/doxygen
+INPUT                  = src
+FILE_PATTERNS          = *.py
+RECURSIVE              = YES
+OPTIMIZE_OUTPUT_JAVA   = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+JAVADOC_AUTOBRIEF      = YES
+PYTHON_DOCSTRING       = YES
+SOURCE_BROWSER         = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HAVE_DOT               = NO
+QUIET                  = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_AS_ERROR          = NO
