@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-18 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-10-18 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [9dd167b] |
 
 ---
 
@@ -54,3 +54,4 @@ There is no `<<include>>` or `<<extend>>` relationship: the program has one goal
 [BC-001]: ./business-case.md
 [US-001]: ./user-stories.md
 [UC-001]: ./uc-001/uc.md
+[9dd167b]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/commit/9dd167bdca930fedbf8e2ddd1beb9c2a552b2550

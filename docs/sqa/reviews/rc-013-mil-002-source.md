@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-18 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-10-18 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [961271c] |
 
 ---
 
@@ -59,3 +59,4 @@ Go — every Mandatory criterion passes; 55 tests, 100 percent branch coverage, 
 
 [MIL-002]: ../../milestones/mil-002-core-features.md
 [UC-001]: ../../uc-001/uc.md
+[961271c]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/commit/961271c056023d6de01cbe074263ab4ce7a6dd68

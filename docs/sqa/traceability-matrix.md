@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-18 | Proposed | Jens Tirsvad Nielsen | S01 | Added ADR-0001 | [9761db7] |
-| 2026-10-18 | Proposed | Jens Tirsvad Nielsen | S01 | Added UCD-001, US-001, UC-001, SSD-001 | pending |
+| 2026-10-18 | Proposed | Jens Tirsvad Nielsen | S01 | Added UCD-001, US-001, UC-001, SSD-001 | [961271c] |
 
 ---
 
@@ -54,3 +54,4 @@ The Project Plan has no QC checklist yet; S01 accepts it. No use case, design, c
 [UC-001]: ../uc-001/uc.md
 [SSD-001]: ../uc-001/ssd.md
 [9761db7]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/commit/9761db70f569899eecfe65a298a13184362ff19e
+[961271c]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/commit/961271c056023d6de01cbe074263ab4ce7a6dd68

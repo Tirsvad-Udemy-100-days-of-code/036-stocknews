@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-18 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-10-18 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [9dd167b] |
 
 ---
 
@@ -45,3 +45,4 @@ Independent, Negotiable, Valuable, Estimable, Small and Testable: yes, no except
 [BC-001]: ./business-case.md
 [MIL-002]: ./milestones/mil-002-core-features.md
 [UC-001]: ./uc-001/uc.md
+[9dd167b]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/commit/9dd167bdca930fedbf8e2ddd1beb9c2a552b2550

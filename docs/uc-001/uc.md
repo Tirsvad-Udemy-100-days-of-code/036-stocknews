@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-18 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-10-18 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [9dd167b] |
 
 ---
 
@@ -74,3 +74,4 @@ None.
 [US-001]: ../user-stories.md
 [SA-001]: ../stakeholder-analysis.md
 [SSD-001]: ./ssd.md
+[9dd167b]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/commit/9dd167bdca930fedbf8e2ddd1beb9c2a552b2550
