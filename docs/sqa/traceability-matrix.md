@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-18 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | pending |
+| 2026-10-18 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [227594b] |
 
 ---
 
@@ -42,3 +42,4 @@ The Project Plan has no QC checklist yet; S01 accepts it. No use case, design, c
 [MIL-001]: ../milestones/mil-001-foundation.md
 [MIL-002]: ../milestones/mil-002-core-features.md
 [MIL-003]: ../milestones/mil-003-documentation.md
+[227594b]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/commit/227594bb0fb1d03545a66ddb64df77c61fa92fa8
