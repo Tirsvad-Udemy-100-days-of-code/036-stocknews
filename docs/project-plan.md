@@ -29,9 +29,9 @@ This plan schedules three gateways over the Business Case's constraint of about 
 
 | Gateway | Document | Window | Decision date | Owner | Stories | Main deliverable | Milestone |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Foundation | [MIL-001] | 2026-10-18 to 2026-10-19 | 2026-10-19 | S01 | | Configured, CI-checked repository | |
-| Core features | [MIL-002] | 2026-10-19 to 2026-10-21 | 2026-10-21 | S01 | UC-001 | Tested `stocknews` package | |
-| Documentation | [MIL-003] | 2026-10-21 to 2026-10-23 | 2026-10-23 | S01 | | README, screenshots, three-language wiki | |
+| Foundation | [MIL-001] | 2026-10-18 to 2026-10-19 | 2026-10-19 | S01 | | Configured, CI-checked repository | [213](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/milestone/213) |
+| Core features | [MIL-002] | 2026-10-19 to 2026-10-21 | 2026-10-21 | S01 | UC-001 | Tested `stocknews` package | [214](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/milestone/214) |
+| Documentation | [MIL-003] | 2026-10-21 to 2026-10-23 | 2026-10-23 | S01 | | README, screenshots, three-language wiki | [215](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/milestone/215) |
 
 ```plantuml
 @startgantt
