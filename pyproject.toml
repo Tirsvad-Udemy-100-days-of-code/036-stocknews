@@ -52,3 +52,13 @@ ignore = ["D203", "D213"]
 strict = true
 python_version = "3.13"
 mypy_path = "src"
+
+[[tool.mypy.overrides]]
+# The shared quality workflow does not install the test tools.
+module = ["pytest", "pytest.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["tests.*"]
+disallow_untyped_decorators = false
+implicit_reexport = true

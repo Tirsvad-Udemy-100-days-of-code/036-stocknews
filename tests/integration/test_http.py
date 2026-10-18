@@ -1,4 +1,5 @@
 import urllib.error
+import urllib.request
 
 import pytest
 
@@ -58,6 +59,6 @@ def test_open_url_returns_body(monkeypatch: pytest.MonkeyPatch) -> None:
         seen.append(timeout)
         return FakeResponse()
 
-    monkeypatch.setattr(http.urllib.request, "urlopen", fake_urlopen)
+    monkeypatch.setattr(urllib.request, "urlopen", fake_urlopen)
     assert http.open_url("https://x.test", 7) == b"body"
     assert seen == [7]
