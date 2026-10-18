@@ -74,7 +74,9 @@ python -m stocknews --dry-run   # prints the alert, sends nothing
 python -m stocknews             # sends the alert with pywhatkit
 ```
 
-Change the stock, company name and threshold in `src/stocknews/constants.py`. Build the source documentation with `doxygen Doxyfile` (output in `docs/doxygen/`).
+![Dry run output](docs/images/dry-run.png)
+
+The screenshot shows a dry run with fake data. Change the stock, company name and threshold in `src/stocknews/constants.py`. Build the source documentation with `doxygen Doxyfile` (output in `docs/doxygen/`).
 
 ## 🧪 Tests
 
@@ -83,6 +85,10 @@ python -m pytest
 ruff check .
 mypy src
 ```
+
+![Test run](docs/images/tests.png)
+
+The wiki has the same guide in [English][wiki-en], [Dansk][wiki-da] and [Bahasa Melayu][wiki-ms].
 
 ## 📄 License
 
@@ -115,6 +121,9 @@ The documents a newcomer needs, in reading order.
 [repository]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews
 [documentation]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/wiki
 [issues]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/issues
+[wiki-en]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/wiki/Home
+[wiki-da]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/wiki/Home-da
+[wiki-ms]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/wiki/Home-ms
 [agents]: ./AGENTS.md
 [BC-001]: ./docs/business-case.md
 [SA-001]: ./docs/stakeholder-analysis.md
