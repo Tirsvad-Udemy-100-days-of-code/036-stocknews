@@ -4,12 +4,13 @@
 | Key | Value |
 | --- | --- |
 | ID | TM-001 |
-| CrossReference | [BC-001], [SA-001], [PP-001], [MIL-001], [MIL-002], [MIL-003] |
+| CrossReference | [BC-001], [SA-001], [PP-001], [MIL-001], [MIL-002], [MIL-003], [ADR-0001] |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-18 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [227594b] |
+| 2026-10-18 | Proposed | Jens Tirsvad Nielsen | S01 | Added ADR-0001 | pending |
 
 ---
 
@@ -29,6 +30,7 @@ updated whenever an artifact instance is created or reviewed.
 | [MIL-001] | MIL | en | it | [BC-001] | [MIL-002] | RC-003 |
 | [MIL-002] | MIL | en | it | [BC-001], [MIL-001] | [MIL-003] | RC-004 |
 | [MIL-003] | MIL | en | it | [BC-001], [MIL-002] | - | RC-005 |
+| [ADR-0001] | ADR | - | - | [BC-001], [MIL-001] | - | RC-006 |
 
 ## Coverage Notes
 
@@ -42,4 +44,5 @@ The Project Plan has no QC checklist yet; S01 accepts it. No use case, design, c
 [MIL-001]: ../milestones/mil-001-foundation.md
 [MIL-002]: ../milestones/mil-002-core-features.md
 [MIL-003]: ../milestones/mil-003-documentation.md
+[ADR-0001]: ../adr/adr-0001-dependency-policy.md
 [227594b]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/commit/227594bb0fb1d03545a66ddb64df77c61fa92fa8
