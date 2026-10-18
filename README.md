@@ -57,7 +57,7 @@ python -m pip install -e ".[dev]"
 
 To send real messages also install the optional extra: `python -m pip install -e ".[notify]"`.
 
-Put your keys in a local `.env` file in the project root. It is ignored by git and must never be committed:
+Put your keys in a local `.env` or `config.env` file in the project root (environment variables win over both files). Both are ignored by git and must never be committed:
 
 ```text
 APLHA_VANTAGE_API_KEY=your-alpha-vantage-key
