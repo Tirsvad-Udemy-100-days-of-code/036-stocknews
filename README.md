@@ -28,7 +28,7 @@ The program compares yesterday's closing price with the day before from [Alpha V
 
 - Python 3.13 or newer.
 - A free Alpha Vantage API key ([get one](https://www.alphavantage.co/support/#api-key)) and a free NewsAPI key ([register](https://newsapi.org/register)).
-- Only to send real messages: `pywhatkit` (optional extra `notify`), a desktop browser signed in to WhatsApp Web, and your phone number. Without it, use the dry run, which only prints.
+- Only to send real messages: `pywhatkit` (optional extra `whatsapp`), a desktop browser signed in to WhatsApp Web, and your phone number. Without it, use the dry run, which only prints.
 - Optional: Doxygen, to build the source documentation.
 
 The program itself has no runtime dependency.
@@ -55,14 +55,14 @@ python -m pip install --upgrade pip
 python -m pip install -e ".[dev]"
 ```
 
-To send real messages also install the optional extra: `python -m pip install -e ".[notify]"`.
+To send real messages also install the optional extra: `python -m pip install -e ".[whatsapp]"`.
 
 Put your keys in a local `.env` or `config.env` file in the project root (environment variables win over both files). Both are ignored by git and must never be committed:
 
 ```text
 APLHA_VANTAGE_API_KEY=your-alpha-vantage-key
 NEWAPI_KEY=your-newsapi-key
-STOCKNEWS_PHONE=+4512345678
+PHONENUMBER=+4512345678
 ```
 
 The variable name `APLHA_VANTAGE_API_KEY` is spelled as it is in the author's own file; it is defined once in `constants.py`.

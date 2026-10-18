@@ -19,6 +19,6 @@ Ret `src/stocknews/constants.py`.
 | --- | --- |
 | `APLHA_VANTAGE_API_KEY` | Alpha Vantage-nøgle |
 | `NEWAPI_KEY` | NewsAPI-nøgle |
-| `STOCKNEWS_PHONE` | Dit telefonnummer med landekode (ikke nødvendigt med `--dry-run`) |
+| `PHONENUMBER` | Dit telefonnummer med landekode (ikke nødvendigt med `--dry-run`) |
 
 Miljøvariabler går forud for filerne `.env` og `config.env` i arbejdsmappen. Begge filer ignoreres af git.

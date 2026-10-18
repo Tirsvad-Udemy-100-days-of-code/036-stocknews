@@ -16,7 +16,7 @@ python -m pip install --upgrade pip
 python -m pip install -e ".[dev]"
 ```
 
-Untuk menghantar mesej sebenar, pasang tambahan pilihan: `python -m pip install -e ".[notify]"`.
+Untuk menghantar mesej sebenar, pasang tambahan pilihan: `python -m pip install -e ".[whatsapp]"`.
 
 ## Kunci
 
@@ -25,5 +25,5 @@ Cipta fail `.env` dalam akar projek. Git mengabaikannya; jangan sekali-kali comm
 ```text
 APLHA_VANTAGE_API_KEY=your-alpha-vantage-key
 NEWAPI_KEY=your-newsapi-key
-STOCKNEWS_PHONE=+4512345678
+PHONENUMBER=+4512345678
 ```

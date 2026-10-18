@@ -19,6 +19,6 @@ Ubah `src/stocknews/constants.py`.
 | --- | --- |
 | `APLHA_VANTAGE_API_KEY` | Kunci Alpha Vantage |
 | `NEWAPI_KEY` | Kunci NewsAPI |
-| `STOCKNEWS_PHONE` | Nombor telefon anda dengan kod negara (tidak perlu untuk `--dry-run`) |
+| `PHONENUMBER` | Nombor telefon anda dengan kod negara (tidak perlu untuk `--dry-run`) |
 
 Pemboleh ubah persekitaran mengatasi fail `.env` dan `config.env` dalam direktori kerja. Kedua-dua fail diabaikan oleh git.

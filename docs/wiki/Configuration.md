@@ -19,6 +19,6 @@ Edit `src/stocknews/constants.py`.
 | --- | --- |
 | `APLHA_VANTAGE_API_KEY` | Alpha Vantage key |
 | `NEWAPI_KEY` | NewsAPI key |
-| `STOCKNEWS_PHONE` | Your phone number with country code (not needed for `--dry-run`) |
+| `PHONENUMBER` | Your phone number with country code (not needed for `--dry-run`) |
 
 Environment variables win over the files `.env` and `config.env` in the working directory. Both files are ignored by git.

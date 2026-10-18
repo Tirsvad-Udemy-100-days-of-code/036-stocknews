@@ -16,7 +16,7 @@ python -m pip install --upgrade pip
 python -m pip install -e ".[dev]"
 ```
 
-For at sende rigtige beskeder installeres det valgfri tillæg: `python -m pip install -e ".[notify]"`.
+For at sende rigtige beskeder installeres det valgfri tillæg: `python -m pip install -e ".[whatsapp]"`.
 
 ## Nøgler
 
@@ -25,5 +25,5 @@ Opret en `.env`-fil i projektets rod. Git ignorerer den; læg den aldrig i et co
 ```text
 APLHA_VANTAGE_API_KEY=your-alpha-vantage-key
 NEWAPI_KEY=your-newsapi-key
-STOCKNEWS_PHONE=+4512345678
+PHONENUMBER=+4512345678
 ```

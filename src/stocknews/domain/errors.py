@@ -13,5 +13,9 @@ class ApiError(StockNewsError):
     """An external service failed, answered badly or refused the request."""
 
 
+class NotificationError(StockNewsError):
+    """A message could not be sent to the owner."""
+
+
 class ConfigError(StockNewsError):
     """A required setting is missing or a required package is not installed."""

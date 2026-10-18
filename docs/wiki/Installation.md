@@ -16,7 +16,7 @@ python -m pip install --upgrade pip
 python -m pip install -e ".[dev]"
 ```
 
-To send real messages install the optional extra: `python -m pip install -e ".[notify]"`.
+To send real messages install the optional extra: `python -m pip install -e ".[whatsapp]"`.
 
 ## Keys
 
@@ -25,5 +25,5 @@ Create a `.env` file in the project root. It is ignored by git; never commit it.
 ```text
 APLHA_VANTAGE_API_KEY=your-alpha-vantage-key
 NEWAPI_KEY=your-newsapi-key
-STOCKNEWS_PHONE=+4512345678
+PHONENUMBER=+4512345678
 ```
