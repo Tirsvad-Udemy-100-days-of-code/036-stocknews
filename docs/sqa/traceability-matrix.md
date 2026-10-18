@@ -4,13 +4,13 @@
 | Key | Value |
 | --- | --- |
 | ID | TM-001 |
-| CrossReference | [BC-001], [SA-001], [PP-001], [MIL-001], [MIL-002], [MIL-003], [ADR-0001] |
+| CrossReference | [BC-001], [SA-001], [PP-001], [MIL-001], [MIL-002], [MIL-003], [ADR-0001], [UCD-001], [US-001], [UC-001], [SSD-001] |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-18 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [227594b] |
 | 2026-10-18 | Proposed | Jens Tirsvad Nielsen | S01 | Added ADR-0001 | [9761db7] |
+| 2026-10-18 | Proposed | Jens Tirsvad Nielsen | S01 | Added UCD-001, US-001, UC-001, SSD-001 | pending |
 
 ---
 
@@ -30,6 +30,10 @@ updated whenever an artifact instance is created or reviewed.
 | [MIL-001] | MIL | en | it | [BC-001] | [MIL-002] | RC-003 |
 | [MIL-002] | MIL | en | it | [BC-001], [MIL-001] | [MIL-003] | RC-004 |
 | [MIL-003] | MIL | en | it | [BC-001], [MIL-002] | - | RC-005 |
+| [UCD-001] | UCD | en | it | [SA-001], [BC-001] | [US-001], [UC-001] | RC-009 |
+| [US-001] | US | en | it | [UCD-001], [BC-001] | [UC-001] | RC-010 |
+| [UC-001] | UC | en | it | [UCD-001], [US-001], [MIL-002] | [SSD-001] | RC-011 |
+| [SSD-001] | SSD | en | it | [UC-001] | - | RC-012 |
 | [ADR-0001] | ADR | - | - | [BC-001], [MIL-001] | - | RC-006 |
 
 ## Coverage Notes
@@ -45,5 +49,8 @@ The Project Plan has no QC checklist yet; S01 accepts it. No use case, design, c
 [MIL-002]: ../milestones/mil-002-core-features.md
 [MIL-003]: ../milestones/mil-003-documentation.md
 [ADR-0001]: ../adr/adr-0001-dependency-policy.md
-[227594b]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/commit/227594bb0fb1d03545a66ddb64df77c61fa92fa8
+[UCD-001]: ../use-case-diagram.md
+[US-001]: ../user-stories.md
+[UC-001]: ../uc-001/uc.md
+[SSD-001]: ../uc-001/ssd.md
 [9761db7]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/commit/9761db70f569899eecfe65a298a13184362ff19e
