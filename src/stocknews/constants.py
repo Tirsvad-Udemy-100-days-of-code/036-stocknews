@@ -35,7 +35,10 @@ HTTP_TIMEOUT_SECONDS = 20
 ## Environment variable names read by the program.
 ENV_STOCK_API_KEY = "APLHA_VANTAGE_API_KEY"
 ENV_NEWS_API_KEY = "NEWAPI_KEY"
-ENV_PHONE_NUMBER = "STOCKNEWS_PHONE"
+ENV_PHONE_NUMBER = "PHONENUMBER"
 
-## Seconds pywhatkit waits for the browser before it sends the message.
-SEND_WAIT_SECONDS = 15
+## Seconds pywhatkit waits for WhatsApp Web to load before it sends.
+WHATSAPP_WEB_WAIT_SECONDS = 15
+
+## Seconds pywhatkit waits after sending before it closes the browser tab.
+WHATSAPP_WEB_CLOSE_SECONDS = 3

@@ -9,7 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-18 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [9761db7] |
+| 2026-10-18 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [9761db7] |
+| 2026-10-18 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Renamed the optional extra from `notify` to `whatsapp`, as in 035-rain-alert | [9e49a50] |
 
 Allowed Status values: `Proposed`, `Accepted`, `Rejected`, `Deprecated`, `Superseded by ADR-NNNN`.
 
@@ -21,7 +22,7 @@ The program calls two HTTP APIs (Alpha Vantage and NewsAPI) and sends a message 
 
 ## Decision
 
-HTTP uses `urllib.request` from the standard library, and `pywhatkit` is declared as the optional extra `notify`, imported inside the sender function only when a real message is sent.
+HTTP uses `urllib.request` from the standard library, and `pywhatkit` is declared as the optional extra `whatsapp`, imported inside the sender function only when a real message is sent.
 
 ## Consequences
 
@@ -34,7 +35,7 @@ HTTP uses `urllib.request` from the standard library, and `pywhatkit` is declare
 **Negative:**
 
 - `urllib.request` is less convenient than `requests`; the small HTTP helper is ours to maintain.
-- A user who wants real messages must install `.[notify]`.
+- A user who wants real messages must install `.[whatsapp]`.
 
 ## Affected Artifacts
 
@@ -46,3 +47,4 @@ HTTP uses `urllib.request` from the standard library, and `pywhatkit` is declare
 [BC-001]: ../business-case.md
 [MIL-001]: ../milestones/mil-001-foundation.md
 [9761db7]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/commit/9761db70f569899eecfe65a298a13184362ff19e
+[9e49a50]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/commit/9e49a500a9feebcedd715a2efc5744fab8ffded8

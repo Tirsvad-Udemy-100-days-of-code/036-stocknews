@@ -12,7 +12,7 @@ license = { file = "LICENSE" }
 dependencies = []
 
 [project.optional-dependencies]
-notify = ["pywhatkit>=5.4"]
+whatsapp = ["pywhatkit>=5.4"]
 dev = [
     "pytest==9.1.1",
     "pytest-cov==7.1.0",
