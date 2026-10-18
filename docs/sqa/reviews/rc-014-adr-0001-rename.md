@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-18 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-10-18 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [9e49a50] |
 
 ---
 
@@ -51,3 +51,4 @@ Go — every Mandatory criterion passes; the change only renames the optional ex
 ---
 
 [ADR-0001]: ../../adr/adr-0001-dependency-policy.md
+[9e49a50]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/commit/9e49a500a9feebcedd715a2efc5744fab8ffded8
