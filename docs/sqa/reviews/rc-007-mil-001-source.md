@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-18 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-10-18 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [02be5df] |
 
 ---
 
@@ -58,3 +58,4 @@ Go — every Mandatory criterion passes for the skeleton.
 ---
 
 [MIL-001]: ../../milestones/mil-001-foundation.md
+[02be5df]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/commit/02be5dfeb26f5f1c5d9aeb3f3e12de72f9df569e

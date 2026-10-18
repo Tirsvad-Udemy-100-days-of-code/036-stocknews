@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-18 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-10-18 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [6433a4e] |
 
 ---
 
@@ -84,3 +84,4 @@ Go-with-conditions — criterion 22 of QC-WF-001 fails; the workflows stay unver
 ---
 
 [MIL-001]: ../../milestones/mil-001-foundation.md
+[6433a4e]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/commit/6433a4e30aa658605ba1f4bed186ae1876ea0176

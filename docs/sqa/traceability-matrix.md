@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-18 | Proposed | Jens Tirsvad Nielsen | S01 | Initial version | [227594b] |
-| 2026-10-18 | Proposed | Jens Tirsvad Nielsen | S01 | Added ADR-0001 | pending |
+| 2026-10-18 | Proposed | Jens Tirsvad Nielsen | S01 | Added ADR-0001 | [9761db7] |
 
 ---
 
@@ -46,3 +46,4 @@ The Project Plan has no QC checklist yet; S01 accepts it. No use case, design, c
 [MIL-003]: ../milestones/mil-003-documentation.md
 [ADR-0001]: ../adr/adr-0001-dependency-policy.md
 [227594b]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/commit/227594bb0fb1d03545a66ddb64df77c61fa92fa8
+[9761db7]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/036-stocknews/commit/9761db70f569899eecfe65a298a13184362ff19e
