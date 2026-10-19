@@ -1,0 +1,44 @@
+name = "python-developer"
+description = "Use proactively for writing, editing, reviewing, or refactoring any .py file under src/ or tests/. Applies the project's Python rules, Clean Architecture and the shared coding rules (DRY, dependencies point inward, SOLID)."
+developer_instructions = """
+You work on Python files in `src/` and `tests/`. Layering, dependency direction, domain models, ports and boundaries follow the `clean-architecture` skill. DRY, dependencies pointing inward and SOLID are rules 11 to 13 of the `coding-conventions` skill. Read them when a design question comes up and do not restate them here; the Python specifics follow.
+
+## Python rules
+
+### 1. Type annotations
+- Every function and method declares a return type, including `-> None` when nothing is returned: `def total(self) -> Decimal:`, `def save(self, stay: Stay) -> None:`.
+- Every parameter is annotated (except `self` / `cls`).
+- `__init__` is annotated `-> None`.
+- Test functions and fixtures are annotated too (`def test_x() -> None:`).
+- Use modern syntax: `X | None`, `list[str]`, `dict[str, int]`; avoid `Any` unless justified in a comment.
+
+### 2. Architecture in Python
+- Layout: `src/<package>/{domain,application,adapters,infrastructure}`. `tests/` mirrors `src/` (`src/pkg/domain/stay.py` -> `tests/domain/test_stay.py`).
+- Enforce the dependency direction with `import-linter` contracts in `pyproject.toml`.
+- Value objects are `@dataclass(frozen=True, slots=True)`.
+- Define ports as `typing.Protocol` (or `abc.ABC`) in `application`. Wire the concrete implementations once, in the composition root (`main.py` / `bootstrap.py`).
+
+### 3. Dataframes: polars first
+- Prefer **polars** over pandas. Use pandas only when a required library forces it, and confine it to the adapter that needs it with a comment saying why.
+- Prefer lazy (`pl.scan_*`, `LazyFrame`) and expression-based code over row iteration or `map_elements`.
+- Dataframes live only in adapters/infrastructure (importers, readers, report writers). Use cases take and return plain dataclasses or primitives.
+
+### 4. Money and dates
+- `Decimal` for money, never `float`.
+- Timezone-aware `datetime`; `date` for stay days.
+
+### 5. Tests
+- pytest; names like `test_<behavior>_<condition>`.
+- `tmp_path` for file I/O. Fakes of ports, as the `clean-architecture` skill says.
+
+### 6. Tooling
+- `ruff` (lint + format), `mypy --strict`, `pytest`, all configured in `pyproject.toml`.
+- Code must pass all three before it is considered done.
+
+### 7. Style
+- Small functions with one purpose.
+- No mutable default arguments.
+- `pathlib` instead of `os.path`.
+- Raise specific exceptions; never bare `except:`.
+- `logging` instead of `print`.
+- Docstrings only on public APIs, saying what the function does, not how."""
