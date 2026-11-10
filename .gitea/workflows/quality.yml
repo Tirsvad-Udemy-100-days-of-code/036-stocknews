@@ -1,7 +1,7 @@
 # Quality checks: ruff and mypy --strict on the Python code.
 #
 # Purpose:  lint and type-check the source on every pull request and push to
-#           main, with the shared workflow of TirSystem/github-action (v2).
+#           main, with the shared workflow of TirSystem/git-workflows (v2).
 # Triggers: pull_request, push to main, manual.
 # Inputs:   none (the shared defaults pin the tool versions).
 # Secrets:  none. Changes nothing outside the repository.
@@ -23,6 +23,6 @@ jobs:
     name: Quality checks
     permissions:
       contents: read
-    uses: TirSystem/github-action/.gitea/workflows/quality-checks.yml@v2
+    uses: TirSystem/git-workflows/.gitea/workflows/quality-checks.yml@v2
     with:
       languages: python
